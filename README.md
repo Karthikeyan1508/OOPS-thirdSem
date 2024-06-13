@@ -1,6 +1,6 @@
 # OOPS-thirdSem
 
-This repository contains C++ programs required for the Object-Oriented Programming (OOPS) laboratory in the third semester, specifically designed for Turbo C. It includes various examples and exercises to help students understand key OOPS concepts such as:
+This repository contains C++ programs required for the Object-Oriented Programming (OOPS) laboratory in the 3rd Ssemester, specifically designed for Turbo C. It includes various examples and exercises to help students understand key OOPS concepts such as:
 
 - 🏷️ Classes and Objects
 - 🧬 Inheritance
