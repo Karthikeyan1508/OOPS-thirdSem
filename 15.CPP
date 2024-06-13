@@ -8,7 +8,7 @@ int main() {
 
     ofstream out1 ("sample.txt");
     cout<<"Enter the string to be in file\n"<<endl;
-    cin>>sti;
+    cin.getline(sti,20);
     out1<<sti;
     out1.close();
     ifstream in("sample.txt");
