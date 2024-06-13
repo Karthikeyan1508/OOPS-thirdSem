@@ -1,3 +1,5 @@
+// 2.Write a C++ Program to accept an alphabet and check whether it is a vowel or a consonant. If it is a vowel, return its predecessor, else its successor. Use call-by-reference with reference arguments.
+
 #include<iostream.h>
 #include<conio.h>
 #include<ctype.h>
