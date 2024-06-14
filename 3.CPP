@@ -5,7 +5,7 @@
 #include<math.h>
 
 extern "C"{
-	doubleMySqrt(double x){
+	double MySqrt(double x){
 		return sqrt(x);
 	}
 }
@@ -13,7 +13,7 @@ extern "C"{
 int main(){
 	double x=100;
 	clrscr();
-	double y=doubleMySqrt(x);
+	double y = MySqrt(x);
 	cout<<"Square Root of "<<x<<" is : "<<y<<endl;
 	getch();
 	return 0;
