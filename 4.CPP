@@ -17,11 +17,11 @@ int main(){
 		else if(isdigit(line[i]))
 			digitCount++;
 
-		if(isspace(line[i]) && !isspace(line[i-1]))
+		if(isspace(line[i]) && !isspace(line[i-1]) && !isdigit(line[i-1]))
 			wordCount++;
 	}
 
-	if(!isspace(line[strlen(line)-1])){
+	if(!isspace(line[strlen(line)-1]) && !isdigit(line[i-1])){
 		wordCount++;
 	}
 
